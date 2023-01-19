@@ -1,0 +1,1 @@
+{"v":3,"stories":{"welcome--first-story":{"id":"welcome--first-story","title":"Welcome","name":"First Story","importPath":"./src/components/Welcome.stories.tsx"},"button--basic":{"id":"button--basic","title":"Button","name":"Basic","importPath":"./src/components/mui/Button.stories.tsx"}}}

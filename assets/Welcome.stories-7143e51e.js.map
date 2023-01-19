@@ -1,0 +1,1 @@
+{"version":3,"file":"Welcome.stories-7143e51e.js","sources":["../../src/components/Welcome.tsx"],"sourcesContent":["export const Welcome = (props: {}) => {\n  return <div>Welcome</div>\n}\n"],"names":["Welcome","__name","props","_jsx"],"mappings":"qNAAO,MAAAA,EAAAC,EAAAC,GACLC,EAAA,MAAA,CAAO,SAAA,SAAK,CAAA,EADP"}
