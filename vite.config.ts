@@ -4,8 +4,6 @@ import react from '@vitejs/plugin-react-swc'
 import tsConfigPaths from 'vite-tsconfig-paths'
 import dts from 'vite-plugin-dts'
 import EsLint from 'vite-plugin-linter'
-import sassDts from 'vite-plugin-sass-dts'
-import path from 'path'
 
 import * as packageJson from './package.json'
 
@@ -19,13 +17,6 @@ export default defineConfig((configEnv) => ({
     linterPlugin({
       include: ['./src}/**/*.{ts,tsx}'],
       linters: [new EsLinter({ configEnv })],
-    }),
-    sassDts({
-      enabledMode: ['development', 'production'],
-      global: {
-        generate: true,
-        outFile: path.resolve(__dirname, './src/style.d.ts'),
-      },
     }),
     dts({
       include: ['src/components/', 'src/theme/'],
