@@ -11,7 +11,7 @@
     "lint:fix": "eslint --fix 'src/**/*.{jsx,ts,tsx}'",
     "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "BASE_PATH=/ui/ build-storybook",
+    "build-storybook": "BASE_PATH=/frontend-core/ build-storybook",
     "deploy-storybook": "gh-pages -d storybook-static"
   },
   "dependencies": {
