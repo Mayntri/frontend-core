@@ -18,9 +18,7 @@ export default defineConfig((configEnv) => ({
       include: ['./src}/**/*.{ts,tsx}'],
       linters: [new EsLinter({ configEnv })],
     }),
-    dts({
-      include: ['src/components/', 'src/theme/'],
-    }),
+    dts(),
   ],
   build: {
     lib: {
