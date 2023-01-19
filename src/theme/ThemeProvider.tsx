@@ -1,5 +1,5 @@
 import { CssBaseline, Theme, ThemeProvider as MuiThemeProvider } from '@mui/material'
-import { theme as DefaultTheme } from '.'
+import { theme as DefaultTheme } from './theme'
 
 export const ThemeProvider = ({
   children,

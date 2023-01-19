@@ -4,13 +4,12 @@
   "type": "module",
   "homepage": "http://mayntri.github.io/frontend-core",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint --fix 'src/**/*.{jsx,ts,tsx}'",
     "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc",
-    "storybook": "start-storybook -p 6006",
+    "dev": "start-storybook -p 6006",
     "build-storybook": "BASE_PATH=/frontend-core/ build-storybook",
     "deploy-storybook": "gh-pages -d storybook-static"
   },
@@ -50,6 +49,7 @@
     "vite": "^4.0.4",
     "vite-plugin-dts": "^1.7.1",
     "vite-plugin-linter": "^2.0.2",
+    "vite-plugin-sass-dts": "^1.2.13",
     "vite-tsconfig-paths": "^4.0.3"
   },
   "peerDependencies": {
