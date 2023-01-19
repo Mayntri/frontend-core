@@ -23,10 +23,10 @@ export default defineConfig((configEnv) => ({
   ],
   build: {
     lib: {
-      entry: resolve('src', 'components/index.ts'),
-      name: 'ui',
+      entry: resolve('src', 'index.ts'),
+      name: 'frontend-core',
       formats: ['es', 'umd'],
-      fileName: (format) => `ui.${format}.js`,
+      fileName: (format) => `frontend-core.${format}.js`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],

@@ -61,12 +61,12 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/ui.es.js",
-      "require": "./dist/ui.umd.js"
+      "import": "./dist/frontend-core.es.js",
+      "require": "./dist/frontend-core.umd.js"
     }
   },
-  "main": "./dist/ui.umd.js",
-  "module": "./dist/ui.es.js",
+  "main": "./dist/frontend-core.umd.js",
+  "module": "./dist/frontend-core.es.js",
   "types": "./dist/index.d.ts",
   "publishConfig": {
     "@mayntri:frontend-core": "https://npm.pkg.github.com"
