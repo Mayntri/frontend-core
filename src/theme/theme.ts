@@ -1,10 +1,10 @@
-import { createTheme } from '@mui/material/styles'
+import { createTheme, ThemeOptions } from '@mui/material/styles'
 import colors from '../assets/test.module.scss'
 import { componentStyleOverrides } from './componentStyleOverrides'
 import { palette } from './palette'
 import { typography } from './typography'
 
-export const theme = (customization: any = {}) => {
+export const theme = () => {
   const color = colors
 
   const themeOption = {
@@ -19,21 +19,11 @@ export const theme = (customization: any = {}) => {
     menuSelected: color.secondaryDark,
     menuSelectedBack: color.secondaryLight,
     divider: color.grey200,
-    customization,
   }
 
-  const themeOptions: any = {
+  const themeOptions: ThemeOptions = {
     direction: 'ltr',
     palette: palette(themeOption),
-    mixins: {
-      toolbar: {
-        minHeight: '48px',
-        padding: '16px',
-        '@media (min-width: 600px)': {
-          minHeight: '48px',
-        },
-      },
-    },
     typography: typography(themeOption),
   }
 
