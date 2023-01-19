@@ -69,6 +69,6 @@
   "module": "./dist/ui.es.js",
   "types": "./dist/index.d.ts",
   "publishConfig": {
-    "@mayntri:ui": "https://npm.pkg.github.com"
+    "@mayntri:frontend-core": "https://npm.pkg.github.com"
   }
 }
