@@ -14,11 +14,12 @@
     "deploy-storybook": "gh-pages -d storybook-static"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
+    "@emotion/react": "11.10.5 || >=11.*",
+    "@emotion/styled": "11.10.5 || >=11.*",
     "@fontsource/material-icons": "^4.5.4",
     "@fontsource/roboto": "^4.5.8",
-    "@mui/material": "^5.11.5",
+    "@mui/material": "5.11.5 || >=5.*",
+    "@tanstack/react-table": "^8.7.6",
     "react": "16.8.0 || >=17.x",
     "react-dom": "16.8.0 || >=17.x"
   },
@@ -53,11 +54,12 @@
     "vite-tsconfig-paths": "^4.0.3"
   },
   "peerDependencies": {
-    "react": "16.8.0 || >=17.x",
-    "react-dom": "16.8.0 || >=17.x",
-    "@mui/material": "5.11.5 || >=5.*",
     "@emotion/react": "11.10.5 || >=11.*",
-    "@emotion/styled": "11.10.5 || >=11.*"
+    "@emotion/styled": "11.10.5 || >=11.*",
+    "@mui/material": "5.11.5 || >=5.*",
+    "@tanstack/react-table": "8.7.6 || >=8.*",
+    "react": "16.8.0 || >=17.x",
+    "react-dom": "16.8.0 || >=17.x"
   },
   "files": [
     "dist"
