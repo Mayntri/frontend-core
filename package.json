@@ -55,7 +55,9 @@
   "peerDependencies": {
     "react": "16.8.0 || >=17.x",
     "react-dom": "16.8.0 || >=17.x",
-    "@mui/material": "5.11.5 || >=5.*"
+    "@mui/material": "5.11.5 || >=5.*",
+    "@emotion/react": "11.10.5 || >=11.*",
+    "@emotion/styled": "11.10.5 || >=11.*"
   },
   "files": [
     "dist"
